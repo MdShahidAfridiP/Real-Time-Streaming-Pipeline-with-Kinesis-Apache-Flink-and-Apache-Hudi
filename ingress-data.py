@@ -24,8 +24,8 @@ def getReferrer():
 
 kinesis_client = boto3.client('kinesis',
                                   region_name='us-east-1',
-                                  aws_access_key_id="AKIAU6GD3ETSMSDU2KG4",
-                                  aws_secret_access_key="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"
+                                  aws_access_key_id="xxxxx.....",
+                                  aws_secret_access_key="xxxxxx....."
                                   )
 while True:
     data = json.dumps(getReferrer())
